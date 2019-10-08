@@ -1,0 +1,44 @@
+
+.logo {
+  margin: 0 auto;
+  max-width: 272px;
+  max-height: 92px;
+  position: relative;
+  top: 99px;
+}
+
+.search-box {
+  width: 584px;
+  height: 46px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  top: 113px;
+}
+
+input.search-box {
+  border-radius: 25px;
+  border: 0.5px solid rgb(224, 224, 235);
+}
+
+.buttons {
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: 245px;
+}
+
+.button {
+  background-color: #f2f2f2;
+  border: none;
+  color:rgb(95, 99, 104);
+  padding: 0px 16px;
+  height: 36px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  margin: 11px 4px;
+}
