@@ -38,6 +38,25 @@ div#search-icon {
   z-index: 5;
 }
 
+div#mic-icon {
+  position: relative;
+  width: 10px;
+  top: 55px;
+  left: 940px;
+}
+
+div#mic-icon a:link {
+  color: black;
+}
+
+div#mic-icon a:visited {
+  color: black;
+}
+
+div#mic-icon a:hover {
+  color: black;
+}
+
 .gmail, .images {
   padding-top: 3px;
 }
