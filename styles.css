@@ -4,7 +4,7 @@
   max-width: 272px;
   max-height: 92px;
   position: relative;
-  top: 99px;
+  top: 70px;
 }
 
 .search-box {
@@ -13,7 +13,19 @@
   position: relative;
   margin: 0 auto;
   display: block;
-  top: 113px;
+  top: 80px;
+}
+
+.gmail, .images {
+  padding-top: 3px;
+}
+
+.images {
+  padding-right: 10px;
+}
+
+.gmail {
+  padding-right: 15px;
 }
 
 input.search-box {
@@ -25,7 +37,7 @@ input.search-box {
   width: 300px;
   margin: 0 auto;
   position: relative;
-  top: 245px;
+  top: 185px;
 }
 
 .button {
@@ -41,4 +53,78 @@ input.search-box {
   border: 1px solid #f2f2f2;
   border-radius: 4px;
   margin: 11px 4px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-items: flex-end;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: block;
+  width: auto;
+
+}
+
+li a {
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+  line-height: 24px;
+  font-family: arial, sans-serif;
+}
+
+li a:link {
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+
+li a:visited {
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+
+li a:hover {
+  color: rgba(0,0,0,0.87);
+  opacity: 0.85;
+  text-decoration: underline;
+}
+
+.sign {
+  color: #fff;
+  padding: 0 12px;
+  margin-right: 10px;
+  line-height: 28px;
+  background-color: rgb(66, 133, 244);
+  border: 1px solid #4285f4;
+  outline: none;
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 2px;
+}
+
+a .sign:hover {
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+
+.apps {
+  background-image: url("http://gstatic.com/gb/images/i2_2ec824b0.png");
+  background-position-x: -132px;
+  background-position-y: -38px;
+  background-size: 528px 68px;
+  height: 30px;
+  width: 30px;
+  opacity: 0.55;
+  padding: 0px 3px;
+}
+
+.apps:hover {
+  opacity: 0.85;
 }
