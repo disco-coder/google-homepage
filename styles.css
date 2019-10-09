@@ -1,3 +1,6 @@
+*:focus {
+  outline: none;
+}
 
 .logo {
   margin: 0 auto;
@@ -11,9 +14,23 @@
   width: 584px;
   height: 46px;
   position: relative;
-  margin: 0 auto;
+  margin-left: 170px;
   display: block;
   top: 80px;
+}
+
+input.search-box {
+  padding-left: 45px;
+  border-radius: 25px;
+  border: 0.5px solid rgb(224, 224, 235);
+}
+
+div#search-icon {
+  position: relative;
+  width: 10px;
+  top: 73px;
+  left: 360px;
+  z-index: 5;
 }
 
 .gmail, .images {
@@ -26,11 +43,6 @@
 
 .gmail {
   padding-right: 15px;
-}
-
-input.search-box {
-  border-radius: 25px;
-  border: 0.5px solid rgb(224, 224, 235);
 }
 
 .buttons {
