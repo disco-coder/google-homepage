@@ -45,15 +45,22 @@ div#mic-icon {
   left: 940px;
 }
 
-div#mic-icon a:link {
+div#keyboard-icon {
+  position: relative;
+  width: 10px;
+  top: 37px;
+  left: 900px;
+}
+
+div#mic-icon a:link, div#keyboard-icon a:link {
   color: black;
 }
 
-div#mic-icon a:visited {
+div#mic-icon a:visited, div#keyboard-icon a:visited {
   color: black;
 }
 
-div#mic-icon a:hover {
+div#mic-icon a:hover, div#keyboard-icon a:hover {
   color: black;
 }
 
