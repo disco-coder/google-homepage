@@ -225,8 +225,17 @@ a .sign:hover {
 }
 
 footer {
-  position: relative;
-  top: 320px;
+  position: fixed;
+  bottom: 0;
+  background: #f2f2f2;
+  width: 100%;
+  line-height: 40px;
+  border-top: 1px solid rgb(228, 228, 228);
+}
+
+.footer-czechia {
+  position: fixed;
+  bottom: 6.1%;
   background: #f2f2f2;
   width: 100%;
   line-height: 40px;
