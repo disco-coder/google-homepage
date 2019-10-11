@@ -234,31 +234,26 @@ footer {
 }
 
 .footer-czechia {
-  position: fixed;
-  bottom: 6.1%;
-  background: #f2f2f2;
-  width: 100%;
-  line-height: 40px;
-  border-top: 1px solid rgb(228, 228, 228);
+  border-bottom: 1px solid rgb(228, 228, 228);
 }
 
-footer a {
+footer div a {
   padding: 0 10px;
   font-family: Arial, sans-serif;
   font-size: 13px;
 }
 
-footer a:link {
+footer div a:link {
   color: rgb(95, 99, 104);
   text-decoration: none;
 }
 
-footer a:visited {
+footer div a:visited {
   color: rgb(95, 99, 104);
   text-decoration: none;
 }
 
-footer a:hover {
+footer div a:hover {
   color: rgb(95, 99, 104);
   text-decoration: underline;
 }
